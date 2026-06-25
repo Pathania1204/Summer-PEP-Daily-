@@ -1,0 +1,155 @@
+/* h1{
+    background-color: rgb(119, 157, 42)
+}
+.container{
+    display: grid;
+    grid-template-areas: "one two three"
+                         "four five six"
+                         "seven nine nine"; */
+    /* grid-template-colums defines the number and size of the columns. */
+    /* FRACTION: It lets all columns get equal share of the available space. */
+    /* grid-template-columns: 100px 100px ; */
+    /* grid-template-columns: repeat(4, 1fr) ;  */
+    /* rather than writing 1fr 4 times */ 
+    /* grid-template-rows: 100px 200px 300px;
+    gap: 20px; */
+    /* row-gap: 50px;
+    column-gap: 30px; 
+
+}*/
+/* .items{
+    background-color: orangered;
+    color: white;
+    font-size: larger;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+#item3{
+    grid-area: "eight";
+    background-color: greenyellow;
+} */
+/* #item1{
+    grid-row: 3/4;
+    grid-column: 3/4;
+}
+#item6{
+    grid-column: 1/2;
+    background-color: aqua;
+}
+
+#item4{
+    grid-column: 2/4;
+    background-color: aqua;
+} */
+
+/* #layout{
+    display: grid;
+    grid-template-areas: "header header header header"
+                         "sidebar content content content"
+                         "footer footer footer footer";
+    height: 100vh;
+    width: 100vw;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    background-color: blueviolet;
+    grid-area: header;
+    height: 10vh;
+    text-align: center;
+    transition: background-color 0.1s easeout;
+    &&:hover{
+        background-color: rgb(5, 5, 207);
+    }
+}
+footer{
+    background-color: chocolate;
+    grid-area: footer;
+    height: 10vh;
+    text-align: center;
+    transition: background-color 0.1s easeout;
+    &&:hover{
+        background-color: rgb(221, 8, 8);
+    }
+}
+#sidebar{
+    background-color: chartreuse;
+    grid-area: sidebar;
+    height: 80vh;
+    width: 20vw;
+    transition: background-color 0.1s easeout;
+    &&:hover{
+        background-color: rgb(220, 10, 150);
+    }
+}
+#content{
+    background-color: cadetblue;
+    grid-area: content;
+    height: 80vh;
+    width: 80vw;
+    transition: background-color 0.1s easeout;
+    &&:hover{
+        background-color: rgb(122, 28, 111);
+    }
+} */
+ /* *{
+    padding: 0px;
+    margin: 0px;
+ }
+ .container{
+    background-color: cadetblue;
+    height: 60vh;
+    width: 100vw;
+    position: relative;
+ }
+ #ball{
+    position: absolute;
+    bottom: 0px;
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(red,purple,blue);
+    border: 1px groove purple;
+    border-radius: 100%;
+    animation: bounceX 5s  linear alternate infinite, bounceY 1s ease-out alternate infinite;
+}
+@keyframes bounceX{
+    from{
+        left: 0%;
+    }
+    to{
+        left: 92.5%;
+    }
+}
+@keyframes bounceY{
+    from{
+        bottom: 0%;
+    }
+    to{
+        bottom: 80%;
+    }
+} */
+ .box{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    /* Z-index will only work if the position property is set to absolute, relative, fixed, sticky */
+    bottom: 50px;
+    left:90px;
+ }
+ #box1{
+    background-color: coral;
+    color: white;
+    Z-index: 2
+ }
+ #box2{ 
+    background-color: green;
+    color: white;
+    Z-index: 9
+
+ }
