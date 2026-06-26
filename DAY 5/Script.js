@@ -73,7 +73,17 @@
 //     console.log("You are not Eligible for DL");
 // }
 
-let age = 20;
-let sol = age>18 ? "Eligible" : "Not Eligible";
-console.log(sol);
+// let age = 20;
+// let sol = age>18 ? "Eligible" : "Not Eligible";
+// console.log(sol);
 
+// DOM manipulation
+// Using ID
+// document.getElementById("head1").textContent = "Updated Heading"
+// document.getElementById("head1").innerText = "<i>Updated Heading 2</i>"
+// document.getElementById("head1").innerHTML = "<i>Updated Heading 3</i>"
+
+document.title = "This is new Title";
+document.getElementById('para1').style.backgroundColor = "blue"
+document.getElementById('para1').style.color = "white"
+document.getElementById('para1').style.fontSize = "50px"
