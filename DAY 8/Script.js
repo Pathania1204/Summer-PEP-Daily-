@@ -118,7 +118,7 @@ setTimeout(()=>{
 console.log("This is a script");
 
 // Call Stack is the javaScript Engine which is designed to execute synchronous code.
-// Call Stack waits for no one.
+// Call Stack waits for no one. It is where JS keeps track of the functions that are currently executing.
 // WEB API: Everything that is related to asynchronous nature is grouped under web api.
 // Examples: Promises, setTimeOut, setTimeInterval etc.
 // Task Queue: It contains asynchronous functions of the Web Api.
