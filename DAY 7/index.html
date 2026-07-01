@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 500px;
+            width: 500px;
+            color: white;
+            text-align: center;
+            border: 2px groove rgb(41, 4, 74);
+            background-color: blueviolet;
+            border-radius: 15px;
+            transition: background-color 0.1s ease-out;
+            &&:hover{
+                background-color: rgb(91, 8, 168);
+            }
+        }
+        #postTitle,#postId,#postBody{
+          transition:color 0.1s ease-out;
+          &&:hover{
+            color:(44,1,85);
+          }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+         <h1 id="postTitle"></h1>
+         <div id="postId"></div>
+         <div id ="postBody"></div>
+    </div>
+   
+</body>
+<script src="Script.js"></script>
+</html>
