@@ -1,0 +1,21 @@
+{
+  "name": "pep",
+  "version": "1.0.0",
+  "description": "This is my daily code practice while i am learning MERN from scratch. Our teacher began from HTML, CSS basics.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pathania1204/Summer-PEP-Daily-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Pathania1204/Summer-PEP-Daily-/issues"
+  },
+  "homepage": "https://github.com/Pathania1204/Summer-PEP-Daily-#readme"
+}
